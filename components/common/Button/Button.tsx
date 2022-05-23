@@ -9,7 +9,7 @@ interface propsType {
 export const Button = (props: propsType) => {
   return (
     <BUttonContent onClick={props.onClick}>
-     {props.title}
+      {props.title}
     </BUttonContent>
   )
 }

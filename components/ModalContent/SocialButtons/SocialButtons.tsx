@@ -12,15 +12,15 @@ const SocialButtons: React.FC = () => {
   return (
     <SocialButtonGroup>
       <TwiterButton>
-        <a href="https://google.com" target="_blank" rel="noopener noreferrer">
-          <Image
-            src={TwitterIcon}
-            alt="twitter icon"
-            width={20}
-            height={16}
-            />
-          </a>
-        </TwiterButton>
+      <a href="https://google.com" target="_blank" rel="noopener noreferrer">
+        <Image
+          src={TwitterIcon}
+          alt="twitter icon"
+          width={20}
+          height={16}
+          />
+        </a>
+      </TwiterButton>
       <FacebookButton>
         <a href="https://google.com" target="_blank" rel="noopener noreferrer">
           <Image
